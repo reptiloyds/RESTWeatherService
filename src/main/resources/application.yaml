@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: RESTWeatherService
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/weather_db
+    username: postgres
+    password: gh5j8DR41
+  jpa:
+    show-sql: true
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
